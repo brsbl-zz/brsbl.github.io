@@ -2,4 +2,4 @@
 
 ---
 
-Online photography portfolio
+Online portfolio

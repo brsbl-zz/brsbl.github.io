@@ -1,0 +1,313 @@
+body{
+	margin:0;
+	background-color: #efefef;
+}
+
+.main-name {
+  position: fixed;
+  margin-left: 120px;
+  margin-top: 10px;
+  font-size: 36pt;
+  font-family: 'Courier', sans-serif;
+  text-transform: uppercase;
+
+}
+
+.title {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 100px;
+  width: 100%;
+  text-align: left;
+  font-size: 16pt;
+  font-family: 'Courier', sans-serif;
+
+}
+
+.sub-title {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 135px;
+  text-align: left;
+  font-size: 14pt;
+  font-family: 'Courier', sans-serif;
+
+}
+
+.paragraph {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 105px;
+  width: 60%;
+  text-align: left;
+  font-size: 12pt;
+  font-family: 'Courier', sans-serif;
+
+}
+
+/* blog posts  */
+
+.blog-title {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 145px;
+  width: 100%;
+  text-align: left;
+  font-size: 16pt;
+  font-family: 'Courier', sans-serif;
+
+}
+
+.blog-sub-title {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 175px;
+  text-align: left;
+  font-size: 14pt;
+  font-family: 'Courier', sans-serif;
+
+}
+
+.blog-body {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 210px;
+  width: 60%;
+  text-align: left;
+  font-size: 12pt;
+  font-family: 'Courier', sans-serif;
+}
+
+
+/* photo.html */
+
+.photo-title {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 100px;
+  height: 700px;
+  width: 50%;
+  text-align: left;
+  font-size: 12pt;
+  font-family: 'Courier', sans-serif;
+
+}
+
+.photo-title2 {
+  position: absolute;
+  margin-left: 300px;
+/* new margin-top = two rows of photos worth of height (285+285) + old .photo-title margin-top + 60px for padding */
+  margin-top: 730px;
+  height: 700px;
+  width: 50%;
+  text-align: left;
+  font-size: 12pt;
+  font-family: 'Courier', sans-serif;
+
+}
+
+.photo-title3 {
+  position: absolute;
+  margin-left: 300px;
+/* new margin-top = two rows of photos worth of height (285+285) + old .photo-title margin-top + 60px for padding */
+  margin-top: 1360px;
+  height: 700px;
+  width: 50%;
+  text-align: left;
+  font-size: 12pt;
+  font-family: 'Courier', sans-serif;
+
+}
+
+.photo {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 120px;
+  height: 700px;
+  width: 50%;
+  text-align: left;
+  font-size: 12pt;
+  font-family: 'Courier', sans-serif;
+
+}
+
+.photo2 {
+  position: absolute;
+  margin-left: 300px;
+/* new margin-top = two rows of photos worth of height (285+285) + margin-top of previous .photo + 60px for padding */
+  margin-top: 750px;
+  height: 700px;
+  width: 50%;
+  text-align: left;
+  font-size: 12pt;
+  font-family: 'Courier', sans-serif;
+
+}
+
+.photo3 {
+  position: absolute;
+  margin-left: 300px;
+/* new margin-top = two rows of photos worth of height (285+285) + margin-top of previous .photo + 60px for padding */
+  margin-top: 1380px;
+  height: 700px;
+  width: 50%;
+  text-align: left;
+  font-size: 12pt;
+  font-family: 'Courier', sans-serif;
+
+}
+
+.caption {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 750px;
+  width: 100%;
+  text-align: left;
+  font-size: 14pt;
+  font-family: 'Courier', sans-serif;
+
+}
+
+/* art.html */
+
+.art-title {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 100px;
+  width: 100%;
+  text-align: left;
+  font-size: 16pt;
+  font-family: 'Courier', sans-serif;
+
+}
+
+.art-sub-title {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 135px;
+  text-align: left;
+  font-size: 14pt;
+  font-family: 'Courier', sans-serif;
+
+}
+
+.art {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 160px;
+  height: 700px;
+  width: 50%;
+  text-align: left;
+  font-size: 12pt;
+  font-family: 'Courier', sans-serif;
+
+}
+
+.art-caption {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 740px;
+  width: 100%;
+  text-align: left;
+  font-size: 14pt;
+  font-family: 'Courier', sans-serif;
+
+}
+
+.art-title2 {
+  position: absolute;
+  margin-left: 300px;
+/* new margin-top = old art-caption margin-top + 50px */
+  margin-top: 790px;
+  width: 100%;
+  text-align: left;
+  font-size: 16pt;
+  font-family: 'Courier', sans-serif;
+
+}
+
+.art-sub-title2 {
+  position: absolute;
+  margin-left: 300px;
+/* new margin-top =  art-title margin-top + 35px */
+  margin-top: 825px;
+  text-align: left;
+  font-size: 14pt;
+  font-family: 'Courier', sans-serif;
+
+}
+
+.art2 {
+  position: absolute;
+  margin-left: 300px;
+/* new margin-top =  art-sub-title margin-top + 25px */
+  margin-top: 850px;
+  height: 700px;
+  width: 50%;
+  text-align: left;
+  font-size: 12pt;
+  font-family: 'Courier', sans-serif;
+
+}
+
+.art-caption2 {
+  position: absolute;
+  margin-left: 300px;
+  /* new margin-top =  art margin-top + 580px */
+  margin-top: 1430px;
+  width: 100%;
+  text-align: left;
+  font-size: 14pt;
+  font-family: 'Courier', sans-serif;
+
+}
+
+/* social and nav */
+
+.social {
+  position: fixed;
+  margin-top: 50px;
+  margin-left: 10px;
+  padding: 0px;
+  width: 120px;
+  display: block;
+
+}
+
+.nav {
+  position: fixed;
+	float: right;
+  margin: auto;
+  font-size: 18pt;
+  width: 120px;
+  font-family: 'Courier', sans-serif;
+  margin-left: 100px;
+  margin-top: 100px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    /* text-decoration: none; */
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    text-transform: uppercase;
+}

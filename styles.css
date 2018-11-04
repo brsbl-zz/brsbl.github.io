@@ -1,313 +1,471 @@
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
 body{
-	margin:0;
-	background-color: #efefef;
+		margin:0;
+		background-color: #f0f5f9;
+		text-decoration: none;
+		font-family: Courier, Courier New, sans-serif;
+	}
+}
+
+a {
+    color: #929aab;
+		text-decoration: none;
 }
 
 .main-name {
-  position: fixed;
-  margin-left: 120px;
+	font-family: Courier, sans-serif;
+  position: relative;
+  margin-left: 125px;
+	letter-spacing: 30px;
   margin-top: 10px;
   font-size: 36pt;
-  font-family: 'Courier', sans-serif;
   text-transform: uppercase;
+	text-align: justify;
 
 }
 
 .title {
-  position: absolute;
+	font-family: Courier, sans-serif;
+  position: abosolute;
   margin-left: 300px;
-  margin-top: 100px;
+  margin-top: 20px;
   width: 100%;
   text-align: left;
   font-size: 16pt;
-  font-family: 'Courier', sans-serif;
 
 }
 
-.sub-title {
-  position: absolute;
-  margin-left: 300px;
-  margin-top: 135px;
-  text-align: left;
-  font-size: 14pt;
-  font-family: 'Courier', sans-serif;
 
-}
+/* index.html */
 
 .paragraph {
   position: absolute;
+	font-family: Courier New, sans-serif;
   margin-left: 300px;
-  margin-top: 105px;
-  width: 60%;
-  text-align: left;
-  font-size: 12pt;
-  font-family: 'Courier', sans-serif;
+  margin-top: 20px;
+  width: 55%;
+  text-align: justify;
+  font-size: 14pt;
 
 }
+
 
 /* blog posts  */
 
-.blog-title {
-  position: absolute;
+.newsletter-link {
+	font-family: Courier, sans-serif;
+	font-weight: bolder;
   margin-left: 300px;
-  margin-top: 145px;
-  width: 100%;
-  text-align: left;
-  font-size: 16pt;
-  font-family: 'Courier', sans-serif;
+	color: #f5c16c;
+  margin-top: 20px;
+  text-align: justify;
+  font-size: 12pt;
+	letter-spacing: 5px;
 
 }
 
-.blog-sub-title {
+.blog-div {
+	font-family: Courier New, sans-serif;
+  position: absolute;
+	height: 93%;
+	overflow:scroll;
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+	height: 100%;
+  width: 100%;
+	text-align: justify;
+
+}
+
+
+/* When adding an nth blog post, copy the contents from the latest blog-title, blog-date, blog-body together in a block, then use the equations for margin-top */
+
+.blog-title2 {
+  position: absolute;
+	font-family: Courier, sans-serif;
+  margin-left: 300px;
+  margin-top: 20px;
+	/* first  margin-top is 20px */
+  text-align: left;
+  font-size: 16pt;
+	letter-spacing: 2px;
+
+}
+
+.blog-date2 {
   position: absolute;
   margin-left: 300px;
-  margin-top: 175px;
+  margin-top: 50px;
+	/* first margin-top is 20px + 30px */
   text-align: left;
-  font-size: 14pt;
-  font-family: 'Courier', sans-serif;
+	letter-spacing: 2px;
+  font-size: 11pt;
+	text-decoration: underline;
+
+}
+
+.blog-body2 {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 75px;
+	/* first margin-top is 50px + 25px */
+	height: 500px;
+	width: 1000px;
+	overflow:scroll;
+	width: 55%;
+	overflow-y: hidden; /* Hide horizontal scrollbar */
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+  text-align: justify;
+  font-size: 12pt;
+	text-overflow: ellipsis;
+}
+
+.blog-title {
+  position: absolute;
+	font-family: Courier, sans-serif;
+  margin-left: 300px;
+  margin-top: 520px;
+	/* all previous blog-title, date, and body's margin-top added up + 500 blog body height + 125px */
+  text-align: left;
+  font-size: 16pt;
+	letter-spacing: 2px;
+
+}
+
+.blog-date {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 550px;
+	/* blog-title margin-top + 30px */
+  text-align: left;
+	letter-spacing: 2px;
+  font-size: 11pt;
+	text-decoration: underline;
 
 }
 
 .blog-body {
   position: absolute;
   margin-left: 300px;
-  margin-top: 210px;
-  width: 60%;
+  margin-top: 575px;
+	/* blog-date margin-top + 25px */
+	height: 500px;
+	overflow:scroll;
+	width: 56%;
+	overflow-x: hidden; /* Hide horizontal scrollbar */
   text-align: left;
   font-size: 12pt;
-  font-family: 'Courier', sans-serif;
+	text-overflow: ellipsis;
 }
 
+/* audio  */
+
+.music-div {
+  position: absolute;
+	overflow:scroll;
+	height: 100%;
+  width: 100%;
+  text-align: left;
+	font-family: Courier New, sans-serif;
+	text-align: justify;
+
+
+}
+
+.music-title {
+  position: absolute;
+	font-family: Courier, sans-serif;
+  margin-left: 300px;
+  margin-top: 20px;
+  text-align: left;
+	font-size: 12pt;
+
+}
+
+.music-description {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 65px;
+	font-size: 10.5pt;
+	letter-spacing: -0.75px;
+  width: 60%;
+
+}
+
+.frame {
+  margin-left: 300px;
+  margin-top: 90px;
+	text-align: left;
+
+}
+
+.spotify-link {
+  position: absolute;
+  margin-left: 300px;
+  text-align: left;
+	font-size: 11pt;
+
+}
 
 /* photo.html */
 
-.photo-title {
+.photo-div {
+  position: fixed;
+	overflow:scroll;
+	height: 93%;
+  width: 100%;
+
+}
+
+
+.photo-title3 {
   position: absolute;
-  margin-left: 300px;
-  margin-top: 100px;
-  height: 700px;
-  width: 50%;
-  text-align: left;
+	font-family: Courier New, sans-serif;
+	text-align: justify;
   font-size: 12pt;
-  font-family: 'Courier', sans-serif;
+	letter-spacing: 5px;
+  margin-left: 300px;
+  margin-top: 20px;
+	/* 1 row of photos */
 
 }
 
 .photo-title2 {
   position: absolute;
-  margin-left: 300px;
-/* new margin-top = two rows of photos worth of height (285+285) + old .photo-title margin-top + 60px for padding */
-  margin-top: 730px;
-  height: 700px;
-  width: 50%;
-  text-align: left;
+	font-family: Courier New, sans-serif;
+	text-align: justify;
   font-size: 12pt;
-  font-family: 'Courier', sans-serif;
+	letter-spacing: 5px;
+  margin-left: 300px;
+/* new margin-top = row of photos * photo height (285) + old .photo-title margin-top + 60px for padding */
+  margin-top: 365px;
+	/* 1 row of photos */
 
 }
 
-.photo-title3 {
+.photo-title {
   position: absolute;
-  margin-left: 300px;
-/* new margin-top = two rows of photos worth of height (285+285) + old .photo-title margin-top + 60px for padding */
-  margin-top: 1360px;
-  height: 700px;
-  width: 50%;
-  text-align: left;
+	font-family: Courier New, sans-serif;
+	text-align: justify;
   font-size: 12pt;
-  font-family: 'Courier', sans-serif;
-
-}
-
-.photo {
-  position: absolute;
+	letter-spacing: 5px;
   margin-left: 300px;
-  margin-top: 120px;
-  height: 700px;
-  width: 50%;
-  text-align: left;
-  font-size: 12pt;
-  font-family: 'Courier', sans-serif;
-
-}
-
-.photo2 {
-  position: absolute;
-  margin-left: 300px;
-/* new margin-top = two rows of photos worth of height (285+285) + margin-top of previous .photo + 60px for padding */
-  margin-top: 750px;
-  height: 700px;
-  width: 50%;
-  text-align: left;
-  font-size: 12pt;
-  font-family: 'Courier', sans-serif;
+/* new margin-top = row of photos * photo height (285) + old .photo-title margin-top + 60px for padding */
+  margin-top: 710px;
 
 }
 
 .photo3 {
   position: absolute;
   margin-left: 300px;
-/* new margin-top = two rows of photos worth of height (285+285) + margin-top of previous .photo + 60px for padding */
-  margin-top: 1380px;
-  height: 700px;
-  width: 50%;
-  text-align: left;
-  font-size: 12pt;
-  font-family: 'Courier', sans-serif;
+  margin-top: 40px;
+	/* 1 row of photos */
 
 }
 
-.caption {
+.photo2 {
+  position: absolute;
+  margin-left: 300px;
+/* new margin-top = row of photos * photo height (285) + margin-top of previous .photo + 60px for padding */
+  margin-top: 385px;
+	/* 1 row of photos */
+
+}
+
+.photo {
+  position: absolute;
+  margin-left: 300px;
+/* new margin-top = row of photos * photo height (285) + margin-top of previous .photo + 60px for padding */
+  margin-top: 730px;
+  width: 50%;
+
+}
+
+/* .caption {
   position: absolute;
   margin-left: 300px;
   margin-top: 750px;
   width: 100%;
   text-align: left;
   font-size: 14pt;
-  font-family: 'Courier', sans-serif;
 
-}
+} */
 
 /* art.html */
 
-.art-title {
-  position: absolute;
-  margin-left: 300px;
-  margin-top: 100px;
+.art-div {
+  position: fixed;
+	font-family: Courier New, sans-serif;
+	text-align: justify;
+	overflow:scroll;
+	color: #52616b;
+	height: 93%;
   width: 100%;
-  text-align: left;
-  font-size: 16pt;
-  font-family: 'Courier', sans-serif;
-
-}
-
-.art-sub-title {
-  position: absolute;
-  margin-left: 300px;
-  margin-top: 135px;
-  text-align: left;
-  font-size: 14pt;
-  font-family: 'Courier', sans-serif;
-
-}
-
-.art {
-  position: absolute;
-  margin-left: 300px;
-  margin-top: 160px;
-  height: 700px;
-  width: 50%;
-  text-align: left;
+	margin-bottom: 50px;
+	letter-spacing: 7px;
   font-size: 12pt;
-  font-family: 'Courier', sans-serif;
 
 }
 
-.art-caption {
+/* to make an art-title(n), copy art-title(n-1) up here, change the name, copy art-title(n-2)'s margin-top into art-title(n-1), and continue until you reach the last art-title, then do the calculation in comments for the last margin-top */
+/* The raft has art height of 430 */
+
+.art-title6 {
   position: absolute;
   margin-left: 300px;
-  margin-top: 740px;
-  width: 100%;
-  text-align: left;
-  font-size: 14pt;
-  font-family: 'Courier', sans-serif;
+  margin-top: 20px;
+	/* if first, margin-top = 20px  */
+	/* new margin-top = old art margin-top (50) art height (500) + 80px*/
+
+}
+
+.art-title5 {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 475px;
+	/* new margin-top = old art margin-top art height (375) + 80px*/
+
+}
+
+.art-title4 {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 1055px;
+	/* new margin-top = old art margin-top art height (500) + 80px*/
+
+}
+
+.art-title3 {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 1635px;
+	/* new margin-top = old art margin-top (50) art height (500) + 80px*/
 
 }
 
 .art-title2 {
   position: absolute;
   margin-left: 300px;
-/* new margin-top = old art-caption margin-top + 50px */
-  margin-top: 790px;
-  width: 100%;
-  text-align: left;
-  font-size: 16pt;
-  font-family: 'Courier', sans-serif;
+  margin-top: 2215px;
+	/* new margin-top = old art-title margin-top + art height (500) + 80px*/
 
 }
 
-.art-sub-title2 {
+.art-title {
   position: absolute;
   margin-left: 300px;
-/* new margin-top =  art-title margin-top + 35px */
-  margin-top: 825px;
-  text-align: left;
-  font-size: 14pt;
-  font-family: 'Courier', sans-serif;
+  margin-top: 2795px;
+	/* new margin-top = old art-title margin-top + art height (500) + 80px*/
+
+}
+
+/* to make an art(n), copy art(n-1) up here, change the name, copy art(n-2)'s margin-top into art(n-1), and continue until you reach the last art, then do the calculation in comments for the last margin-top */
+
+.art6 {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 45px;
+	/* if first, margin-top = art-title margin-top (20) + 25px */
+/* new margin-top =  old art margin-top + art height (500) + 80px */
+  width: 50%;
+
+}
+
+.art5 {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 500px;
+/* new margin-top =  old art margin-top + art height (375) + 80px */
+  width: 50%;
+
+}
+
+.art4 {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 1080px;
+/* new margin-top =  old art margin-top + art height (500) + 80px */
+  width: 50%;
+
+}
+
+
+.art3 {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 1660px;
+/* new margin-top =  old art margin-top + art height (500) + 80px */
+	width: 50%;
 
 }
 
 .art2 {
   position: absolute;
   margin-left: 300px;
-/* new margin-top =  art-sub-title margin-top + 25px */
-  margin-top: 850px;
-  height: 700px;
+  margin-top: 2240px;
+	/* new margin-top =  old art margin-top + art height (500) + 80px */
   width: 50%;
-  text-align: left;
-  font-size: 12pt;
-  font-family: 'Courier', sans-serif;
 
 }
 
-.art-caption2 {
+.art {
   position: absolute;
   margin-left: 300px;
-  /* new margin-top =  art margin-top + 580px */
-  margin-top: 1430px;
-  width: 100%;
-  text-align: left;
-  font-size: 14pt;
-  font-family: 'Courier', sans-serif;
+  margin-top: 2820px;
+	/* new margin-top =  old art margin-top + art height (500) + 80px */
+
 
 }
+
 
 /* social and nav */
 
 .social {
   position: fixed;
-  margin-top: 50px;
-  margin-left: 10px;
-  padding: 0px;
+  margin-top: 60px;
+  /* padding: 0px; */
   width: 120px;
   display: block;
+	background-color: #ffd6a4;
 
 }
 
 .nav {
   position: fixed;
 	float: right;
-  margin: auto;
   font-size: 18pt;
   width: 120px;
-  font-family: 'Courier', sans-serif;
-  margin-left: 100px;
-  margin-top: 100px;
+  margin-left: 115px;
+  margin-top: 10px;
+	text-decoration: none;
 
 }
 
 ul {
     list-style-type: none;
+		text-decoration: none;
     margin: 0;
     padding: 0;
 }
 
 li a {
     display: block;
-    color: #000;
-    padding: 8px 16px;
-    /* text-decoration: none; */
-}
-
-li a.active {
-    background-color: #4CAF50;
-    color: white;
-    text-transform: uppercase;
+    padding: 8px 10px;
+		text-decoration: none;
+		font-family: Courier New, sans-serif;
 
 }
+
 
 li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-    text-transform: uppercase;
+    color: #393e46;
+		background-color: #f7f7f7;
+		font-family: Courier, sans-serif;
+		text-decoration: none;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+
 }

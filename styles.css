@@ -1,7 +1,132 @@
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone X ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* iPhone XS Max, XR ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
 
 body{
 		margin:0;
@@ -9,18 +134,19 @@ body{
 		text-decoration: none;
 		font-family: Courier, Courier New, sans-serif;
 	}
-}
 
 a {
     color: #929aab;
 		text-decoration: none;
 }
 
+
 .main-name {
 	font-family: Courier, sans-serif;
   position: relative;
   margin-left: 125px;
-	letter-spacing: 30px;
+	letter-spacing: 20px;
+	overflow: hidden;
   margin-top: 10px;
   font-size: 36pt;
   text-transform: uppercase;
@@ -31,7 +157,7 @@ a {
 .title {
 	font-family: Courier, sans-serif;
   position: abosolute;
-  margin-left: 300px;
+  margin-left: 250px;
   margin-top: 20px;
   width: 100%;
   text-align: left;
@@ -45,7 +171,7 @@ a {
 .paragraph {
   position: absolute;
 	font-family: Courier New, sans-serif;
-  margin-left: 300px;
+  margin-left: 250px;
   margin-top: 20px;
   width: 55%;
   text-align: justify;
@@ -59,7 +185,7 @@ a {
 .newsletter-link {
 	font-family: Courier, sans-serif;
 	font-weight: bolder;
-  margin-left: 300px;
+  margin-left: 250px;
 	color: #f5c16c;
   margin-top: 20px;
   text-align: justify;
@@ -76,6 +202,7 @@ a {
 	overflow-x: hidden; /* Hide horizontal scrollbar */
 	height: 100%;
   width: 100%;
+	margin-left: 250px;
 	text-align: justify;
 
 }
@@ -86,78 +213,74 @@ a {
 .blog-title2 {
   position: absolute;
 	font-family: Courier, sans-serif;
-  margin-left: 300px;
   margin-top: 20px;
 	/* first  margin-top is 20px */
   text-align: left;
-  font-size: 16pt;
+  font-size: 20pt;
 	letter-spacing: 2px;
 
 }
 
 .blog-date2 {
   position: absolute;
-  margin-left: 300px;
   margin-top: 50px;
 	/* first margin-top is 20px + 30px */
   text-align: left;
 	letter-spacing: 2px;
-  font-size: 11pt;
+  font-size: 14pt;
 	text-decoration: underline;
 
 }
 
 .blog-body2 {
   position: absolute;
-  margin-left: 300px;
   margin-top: 75px;
 	/* first margin-top is 50px + 25px */
 	height: 500px;
 	width: 1000px;
 	overflow:scroll;
 	width: 55%;
+	overflow: auto;
 	overflow-y: hidden; /* Hide horizontal scrollbar */
 	overflow-x: hidden; /* Hide horizontal scrollbar */
   text-align: justify;
-  font-size: 12pt;
+  font-size: 14pt;
 	text-overflow: ellipsis;
 }
 
 .blog-title {
   position: absolute;
 	font-family: Courier, sans-serif;
-  margin-left: 300px;
-  margin-top: 520px;
-	/* all previous blog-title, date, and body's margin-top added up + 500 blog body height + 125px */
+  margin-top: 600px;
+	/* all previous blog-title, date, and body's margin-top added up + 30px */
   text-align: left;
-  font-size: 16pt;
+  font-size: 20pt;
 	letter-spacing: 2px;
 
 }
 
 .blog-date {
   position: absolute;
-  margin-left: 300px;
-  margin-top: 550px;
+  margin-top: 630px;
 	/* blog-title margin-top + 30px */
   text-align: left;
 	letter-spacing: 2px;
-  font-size: 11pt;
+  font-size: 14pt;
 	text-decoration: underline;
 
 }
 
 .blog-body {
   position: absolute;
-  margin-left: 300px;
-  margin-top: 575px;
+  margin-top: 655px;
 	/* blog-date margin-top + 25px */
 	height: 500px;
 	overflow:scroll;
+	height: 80%;
 	width: 56%;
 	overflow-x: hidden; /* Hide horizontal scrollbar */
   text-align: left;
-  font-size: 12pt;
+  font-size: 14pt;
 	text-overflow: ellipsis;
 }
 
@@ -169,6 +292,7 @@ a {
 	height: 100%;
   width: 100%;
   text-align: left;
+	margin-left: 250px;
 	font-family: Courier New, sans-serif;
 	text-align: justify;
 
@@ -178,35 +302,32 @@ a {
 .music-title {
   position: absolute;
 	font-family: Courier, sans-serif;
-  margin-left: 300px;
   margin-top: 20px;
   text-align: left;
-	font-size: 12pt;
+	font-size: 20pt;
 
 }
 
 .music-description {
   position: absolute;
-  margin-left: 300px;
   margin-top: 65px;
-	font-size: 10.5pt;
+	font-size: 16pt;
 	letter-spacing: -0.75px;
   width: 60%;
 
 }
 
 .frame {
-  margin-left: 300px;
-  margin-top: 90px;
+  margin-top: 150px;
 	text-align: left;
 
 }
 
 .spotify-link {
   position: absolute;
-  margin-left: 300px;
+	margin-top: 50px;
   text-align: left;
-	font-size: 11pt;
+	font-size: 16pt;
 
 }
 
@@ -215,6 +336,9 @@ a {
 .photo-div {
   position: fixed;
 	overflow:scroll;
+	overflow-x: hidden;
+	margin-left: 250px;
+	font-size: 20pt;
 	height: 93%;
   width: 100%;
 
@@ -225,9 +349,7 @@ a {
   position: absolute;
 	font-family: Courier New, sans-serif;
 	text-align: justify;
-  font-size: 12pt;
-	letter-spacing: 5px;
-  margin-left: 300px;
+	letter-spacing: 3px;
   margin-top: 20px;
 	/* 1 row of photos */
 
@@ -237,9 +359,7 @@ a {
   position: absolute;
 	font-family: Courier New, sans-serif;
 	text-align: justify;
-  font-size: 12pt;
 	letter-spacing: 5px;
-  margin-left: 300px;
 /* new margin-top = row of photos * photo height (285) + old .photo-title margin-top + 60px for padding */
   margin-top: 365px;
 	/* 1 row of photos */
@@ -250,9 +370,7 @@ a {
   position: absolute;
 	font-family: Courier New, sans-serif;
 	text-align: justify;
-  font-size: 12pt;
-	letter-spacing: 5px;
-  margin-left: 300px;
+	letter-spacing: 2px;
 /* new margin-top = row of photos * photo height (285) + old .photo-title margin-top + 60px for padding */
   margin-top: 710px;
 
@@ -260,7 +378,6 @@ a {
 
 .photo3 {
   position: absolute;
-  margin-left: 300px;
   margin-top: 40px;
 	/* 1 row of photos */
 
@@ -268,7 +385,6 @@ a {
 
 .photo2 {
   position: absolute;
-  margin-left: 300px;
 /* new margin-top = row of photos * photo height (285) + margin-top of previous .photo + 60px for padding */
   margin-top: 385px;
 	/* 1 row of photos */
@@ -277,22 +393,11 @@ a {
 
 .photo {
   position: absolute;
-  margin-left: 300px;
 /* new margin-top = row of photos * photo height (285) + margin-top of previous .photo + 60px for padding */
   margin-top: 730px;
-  width: 50%;
 
 }
 
-/* .caption {
-  position: absolute;
-  margin-left: 300px;
-  margin-top: 750px;
-  width: 100%;
-  text-align: left;
-  font-size: 14pt;
-
-} */
 
 /* art.html */
 
@@ -303,8 +408,9 @@ a {
 	overflow:scroll;
 	color: #52616b;
 	height: 93%;
-  width: 100%;
+  width: 99%;
 	margin-bottom: 50px;
+	margin-left: 250px;
 	letter-spacing: 7px;
   font-size: 12pt;
 
@@ -315,7 +421,6 @@ a {
 
 .art-title6 {
   position: absolute;
-  margin-left: 300px;
   margin-top: 20px;
 	/* if first, margin-top = 20px  */
 	/* new margin-top = old art margin-top (50) art height (500) + 80px*/
@@ -324,7 +429,6 @@ a {
 
 .art-title5 {
   position: absolute;
-  margin-left: 300px;
   margin-top: 475px;
 	/* new margin-top = old art margin-top art height (375) + 80px*/
 
@@ -332,7 +436,6 @@ a {
 
 .art-title4 {
   position: absolute;
-  margin-left: 300px;
   margin-top: 1055px;
 	/* new margin-top = old art margin-top art height (500) + 80px*/
 
@@ -340,7 +443,6 @@ a {
 
 .art-title3 {
   position: absolute;
-  margin-left: 300px;
   margin-top: 1635px;
 	/* new margin-top = old art margin-top (50) art height (500) + 80px*/
 
@@ -348,7 +450,6 @@ a {
 
 .art-title2 {
   position: absolute;
-  margin-left: 300px;
   margin-top: 2215px;
 	/* new margin-top = old art-title margin-top + art height (500) + 80px*/
 
@@ -356,7 +457,6 @@ a {
 
 .art-title {
   position: absolute;
-  margin-left: 300px;
   margin-top: 2795px;
 	/* new margin-top = old art-title margin-top + art height (500) + 80px*/
 
@@ -366,7 +466,6 @@ a {
 
 .art6 {
   position: absolute;
-  margin-left: 300px;
   margin-top: 45px;
 	/* if first, margin-top = art-title margin-top (20) + 25px */
 /* new margin-top =  old art margin-top + art height (500) + 80px */
@@ -376,7 +475,6 @@ a {
 
 .art5 {
   position: absolute;
-  margin-left: 300px;
   margin-top: 500px;
 /* new margin-top =  old art margin-top + art height (375) + 80px */
   width: 50%;
@@ -385,7 +483,6 @@ a {
 
 .art4 {
   position: absolute;
-  margin-left: 300px;
   margin-top: 1080px;
 /* new margin-top =  old art margin-top + art height (500) + 80px */
   width: 50%;
@@ -395,7 +492,6 @@ a {
 
 .art3 {
   position: absolute;
-  margin-left: 300px;
   margin-top: 1660px;
 /* new margin-top =  old art margin-top + art height (500) + 80px */
 	width: 50%;
@@ -404,7 +500,6 @@ a {
 
 .art2 {
   position: absolute;
-  margin-left: 300px;
   margin-top: 2240px;
 	/* new margin-top =  old art margin-top + art height (500) + 80px */
   width: 50%;
@@ -413,7 +508,6 @@ a {
 
 .art {
   position: absolute;
-  margin-left: 300px;
   margin-top: 2820px;
 	/* new margin-top =  old art margin-top + art height (500) + 80px */
 

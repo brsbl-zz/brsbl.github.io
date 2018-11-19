@@ -519,17 +519,17 @@ a {
 
 .social {
   position: fixed;
-  margin-top: 40px;
+  margin-top: 50px;
   /* padding: 0px; */
-  width: 110px;
-  display: block;
+  width: 120px;
+  /* display: block; */
 	background-color: #ffd6a4;
 
 }
 
 .nav {
   position: fixed;
-	float: right;
+	/* float: right; */
   font-size: 18pt;
   width: 120px;
   margin-left: 115px;

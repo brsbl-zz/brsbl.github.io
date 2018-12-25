@@ -310,8 +310,10 @@ a {
 
 .music-description {
   position: absolute;
-  margin-top: 65px;
-	font-size: 16pt;
+	font-family: Courier New, sans-serif;
+  margin-top: 475px;
+	margin-left: 250px;
+	font-size: 12pt;
 	letter-spacing: -0.75px;
   width: 60%;
 

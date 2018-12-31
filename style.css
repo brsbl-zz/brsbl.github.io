@@ -179,12 +179,36 @@ a {
 
 }
 
+/* books.html */
+
+.current-book {
+  position: absolute;
+	font-family: Courier New, sans-serif;
+  margin-left: 250px;
+	font-weight: bold;
+	color: #f5c16c;
+  margin-top: 50px;
+  width: 55%;
+  font-size: 12pt;
+
+}
+
+.past-books {
+  position: absolute;
+	font-family: Courier New, sans-serif;
+  margin-left: 250px;
+	/* font-weight: bold; */
+  margin-top: 450px;
+  width: 55%;
+  font-size: 11pt;
+
+}
 
 /* blog posts  */
 
 .newsletter-link {
 	font-family: Courier, sans-serif;
-	font-weight: bolder;
+	font-weight: bold;
   margin-left: 250px;
 	color: #f5c16c;
   margin-top: 20px;
@@ -522,9 +546,11 @@ a {
 .social {
   position: fixed;
   margin-top: 50px;
+	margin-left: -15px;
   /* padding: 0px; */
-  width: 120px;
+  width: 140px;
   /* display: block; */
+	text-align: center;
 	background-color: #ffd6a4;
 
 }
@@ -533,9 +559,10 @@ a {
   position: fixed;
 	/* float: right; */
   font-size: 18pt;
-  width: 120px;
-  margin-left: 115px;
+  width: 145px;
+  margin-left: 100px;
   margin-top: 10px;
+	text-align: left;
 	text-decoration: none;
 
 }

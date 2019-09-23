@@ -183,7 +183,7 @@ a {
 /* social and nav */
 
 .social {
-  position: fixed;
+  position: absolute;
   margin-top: 350px;
 	margin-left: -15px;
   /* padding: 0px; */

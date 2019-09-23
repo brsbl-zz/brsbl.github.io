@@ -144,7 +144,7 @@ a {
 .main-name {
 	font-family: Courier, sans-serif;
   position: relative;
-  margin-left: 125px;
+  margin-left: 250px;
 	letter-spacing: 20px;
 	overflow: hidden;
   margin-top: 10px;
@@ -154,16 +154,6 @@ a {
 
 }
 
-.title {
-	font-family: Courier, sans-serif;
-  position: abosolute;
-  margin-left: 250px;
-  margin-top: 20px;
-  width: 100%;
-  text-align: left;
-  font-size: 16pt;
-
-}
 
 
 /* index.html */
@@ -173,7 +163,7 @@ a {
 	font-family: Courier New, sans-serif;
   margin-left: 250px;
   margin-top: 20px;
-  width: 55%;
+  width: 53%;
   text-align: justify;
   font-size: 14pt;
 
@@ -184,27 +174,12 @@ a {
 
 .social {
   position: absolute;
-  margin-top: 350px;
-	margin-left: -15px;
-  /* padding: 0px; */
-  width: 140px;
-  /* display: block; */
-	text-align: center;
-	background-color: #ffd6a4;
+  margin-top: 475px;
+	margin-left: 250px;
+	width: 15%;
 
 }
 
-.nav {
-  position: fixed;
-	/* float: right; */
-  font-size: 18pt;
-  width: 145px;
-  margin-left: 100px;
-  margin-top: 10px;
-	text-align: left;
-	text-decoration: none;
-
-}
 
 ul {
     list-style-type: none;
